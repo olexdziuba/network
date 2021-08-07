@@ -4,8 +4,20 @@ Switch#conf t
 Enter configuration commands, one per line.  End with CNTL/Z.
 Switch(config)#
 
+## config manage port (fa 0/1) ##
+### conf vlan 1 ###
+Switch>en
+Switch#conf t
+Switch(config)#interfa
+Switch(config)#interface vlan 1
+Switch(config-if)#ip address 192.168.1.5 255.255.255.0
+Switch(config-if)#exit
+Switch(config)#ip default-gateway 192.168.1.1
+Switch(config)#end
 
-### Changer le VLAN 
+
+### assignement Vlan 1 to fa 0/1 ###
+
 Switch(config)#interface fastEthernet 0/1
 Switch(config-if)#switchport access vlan 1
 Switch(config-if)#exit
@@ -14,13 +26,5 @@ Switch#wr mem
 Building configuration...
 [OK]
 Switch#
-
-
-
-
-config manage port (port1)
-Switch(config)#interface fa 0/1
-Switch(config-if)#no shutdown
-
 
 
