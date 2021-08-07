@@ -1,1 +1,26 @@
+Switch>
+Switch>en
+Switch#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Switch(config)#
+
+
+### Changer le VLAN 
+Switch(config)#interface fastEthernet 0/1
+Switch(config-if)#switchport access vlan 1
+Switch(config-if)#exit
+Switch(config)#exit
+Switch#wr mem
+Building configuration...
+[OK]
+Switch#
+
+
+
+
+config manage port (port1)
+Switch(config)#interface fa 0/1
+Switch(config-if)#no shutdown
+
+
 
