@@ -1,0 +1,8 @@
+Connecter cable console. Brancher cable power et appuyez et tenire button “mode “
+initialize the flash file system:
+>Switch:flash_init
+Supprime config.text file de flash directory:
+>switch: del flash:config.text
+Supprimez vlan.dat file de flash directory and redémarrer system
+>switch: del flash:vlan.dat
+>switch: boot
