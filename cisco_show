@@ -1,4 +1,4 @@
-Switch>show ?
+ySwitch>show ?
   aaa             Show AAA values
   arp             ARP table
   auto            Show Automation Template
