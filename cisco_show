@@ -1,0 +1,72 @@
+Switch>show ?
+  aaa             Show AAA values
+  arp             ARP table
+  auto            Show Automation Template
+  cca             CCA information
+  class-map       Show QoS Class Map
+  clock           Display the system clock
+  cns             CNS agents
+  controllers     Interface controller status
+  crypto          Encryption module
+  dampening       Display dampening information
+  dot1x           Dot1x information
+  env             Environmental facilities
+  epm             EPM information
+  errdisable      Error disable
+  etherchannel    EtherChannel information
+  exception       exception informations
+  flash:          display information about flash: file system
+  flowcontrol     show flow control information
+  format          Show format information
+  history         Display the session command history
+  hosts           IP domain-name, lookup style, nameservers, and host table
+  idprom          show IDPROMs for interfaces
+  if-mgr          if-mgr information
+  inventory       Show the physical inventory
+  ip              IP information
+  ipc             Interprocess communications commands
+  ipv6            IPv6 information
+  kron            Kron Subsystem
+  lacp            Port channel information
+  link            Show Link
+  lldp            LLDP information
+  location        Display the system location
+  login           Display Secure Login Configurations and State
+  mab             MAB information
+  mac             MAC configuration
+  macro           Show command macros
+  memory          Memory statistics
+  mls             mls global commands
+  monitor         Monitoring different system events
+  network-policy  Network Policy profile information
+  odm-format      Show the schema used for ODM input file
+  pagp            Port channel information
+  platform        platform specific show commands
+  pm              Show Port Manager commands
+  policy-map      Show QoS Policy Map
+  power           Switch Power
+  queue           Show queue contents
+  queueing        Show queueing configuration
+  radius          Shows radius information
+  resource        Resource group statistics
+  rmon            rmon statistics
+  sasl            show SASL information
+  sessions        Information about Telnet connections
+  shell           Display shell information
+  snmp            snmp statistics
+  ssh             Status of SSH server connections
+  ssl             Show SSL command
+  storm-control   Show storm control configuration
+  table-map       Show Table Map
+  tacacs          Shows tacacs+ server statistics
+  template        Template information
+  terminal        Display terminal configuration parameters
+  time-range      Time range
+  udld            UDLD information
+  users           Display information about terminal lines
+  version         System hardware and software status
+  vlan            VTP VLAN status
+  vmps            VMPS version information
+  vstack          Vstack show commands
+  vtp             VTP information
+  xsd-format      Show the ODM XSD for the command
