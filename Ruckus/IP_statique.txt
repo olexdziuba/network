@@ -1,0 +1,6 @@
+device> enable
+device# configure terminal
+device(config)# ip address <IP address> <subnet mask>
+device(config)# ip default-gateway <IP address>
+device(config)# write memory
+device(config)

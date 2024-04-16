@@ -1,0 +1,16 @@
+device> enable
+device# configure terminal
+device(config)# crypto-ssl certificate generate
+device(config)# username <username> password <password>
+device(config)# aaa authentication login default local
+device(config)# aaa authentication web-server default local
+device(config # no telnet server
+device(config # enable aaa console
+device(config)# web-management https
+device(config)# password-change any
+device(config)# ip ssh timeout 30
+device(config)# ip ssh idle-time 20
+device(config)# console timeout 30
+device(config)# write memory
+device(config)# exit
+device#
