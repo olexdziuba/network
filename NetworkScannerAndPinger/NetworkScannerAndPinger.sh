@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# File:NetworkScannerAndPinger.sh
 ping_once() {
     ping -c 1 -W 1 $1 > /dev/null 2>&1
     if [ $? -eq 0 ]; then
